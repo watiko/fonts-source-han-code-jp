@@ -1,0 +1,19 @@
+Source: fonts-source-han-code-jp
+Section: fonts
+Priority: optional
+Maintainer: watiko <service@mail.watiko.net>
+Build-Depends: debhelper (>= 9)
+Standards-Version: 3.9.5
+Homepage: https://github.com/adobe-fonts/source-han-code-jp
+Vcs-Git: git://github.com/watiko/fonts-source-han-code-jp.git
+Vcs-Browser: https://github.com/watiko/fonts-source-han-code-jp
+
+Package: fonts-source-han-code-jp
+Architecture: all
+Multi-Arch: foreign
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${misc:Depends}
+Description: Source Han CodeJP fonts, supporting Japanese.
+ Source Han Code JP is a derivative of Source Han Sans that replaces its proportional Latin glyphs with fixed-width 667-unit glyphs from Source Code Pro. The Latin glyphs are scaled to match the glyphs for Japanese kana and kanji, and their widths are adjusted to be exactly 667 units (two-thirds of an EM). Source Han Code JP is intended to be used as a UI font for mixed Latin and Japanese text on displays, for programming, editing HTML/CSS, viewing text or inputing to the command line in a terminal app, and so on.
+ .
+ Source Han Code JP is based on the Japanese subset of Source Han Sans, Source Han Sans JP, whose glyph set supports only Japanese.
